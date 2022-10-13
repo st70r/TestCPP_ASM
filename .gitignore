@@ -2,3 +2,9 @@
 .vs/
 
 *.user
+
+.git
+
+Debug
+
+Release
