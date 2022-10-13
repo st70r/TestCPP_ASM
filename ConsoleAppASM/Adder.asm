@@ -1,24 +1,11 @@
-;.386
-;.model flat, c
-
-;MessageBoxA     proto STDCALL :dword, :dword, :dword, :dword
-
-
 .386
 .model flat, c
 option casemap :none
 
-;include d:\masm32\include\masm32.inc
+
 include d:\masm32\include\windows.inc
-;include d:\masm32\include\kernel32.inc
-;include d:\masm32\macros\macros.asm
-
-;includelib d:\masm32\lib\masm32.lib
-;includelib d:\masm32\lib\kernel32.lib
-
 
 MessageBoxA     proto STDCALL :dword, :dword, :dword, :dword
-
 
 .data
 	msgbox_caption          DB 'masm', 0

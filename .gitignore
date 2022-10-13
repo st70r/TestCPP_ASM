@@ -2,3 +2,8 @@
 .vs/
 
 *.user
+
+ConsoleAppASM/Release/
+ConsoleAppASM/Debug/
+Debug/
+Release/
